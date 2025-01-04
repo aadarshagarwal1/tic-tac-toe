@@ -40,7 +40,7 @@ export default function App() {
         textColor: 'whtie',
       });
     }
-    drawCheck();
+    if(winner.length<1){drawCheck();}
   };
   const reset = () => {
     setData([
